@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brightYellow: #e3b505;
+  --darkBrown: #bb9457;
+  --yellow: rgb(242, 180, 80);
+  --brown: #382923;
+  --black: #191919;
+  --grey: #a9b2ac;
+}
+
+body {
+  font-family: "Robot" sans-serif;
+}
+
+.nav_links {
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr;
+  height: 7vh;
+  align-items: center;
+  background: #191919;
+
+  z-index: 3;
+}
+.nav_single-link {
+  font-family: "Robotp" sans-serif;
+  display: block;
+  cursor: pointer;
+  color: #16db6580;
+  font-weight: bolder;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  height: 100%;
+  width: 100%;
+  padding: 1.05rem 1.4rem;
+  margin: 0;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+.nav_single-link:hover {
+  background: #16db6580;
+  color: whitesmoke;
+}
+
+.header-img {
+  position: relative;
+  height: 18vh;
+  display: block;
+  background: linear-gradient(
+      to right,
+      rgba(50, 139, 50, 0.373),
+      rgba(50, 139, 50, 0.373)
+    ),
+    url(../image/line.jpg) center/cover no-repeat fixed;
+}
+#heade-title {
+  position: absolute;
+  color: #191919;
+  text-transform: uppercase;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  color: #ffffff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
+    0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+}
+
+.img-cs {
+  display: block;
+  height: 75vh;
+  width: 100%;
+}

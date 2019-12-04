@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brightYellow: #e3b505;
+  --darkBrown: #bb9457;
+  --yellow: rgb(242, 180, 80);
+  --brown: #382923;
+  --black: #191919;
+  --grey: #a9b2ac;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.nav_links {
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr;
+  height: 7vh;
+  align-items: center;
+  background: #191919;
+
+  z-index: 3;
+}
+.nav_single-link {
+  font-family: "Robotp" sans-serif;
+  display: block;
+  cursor: pointer;
+  color: #16db6580;
+  font-weight: bolder;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  height: 100%;
+  width: 100%;
+  padding: 1.05rem 1.4rem;
+  margin: 0;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+.nav_single-link:hover {
+  background: #16db6580;
+  color: whitesmoke;
+}
+
+.header-img {
+  position: relative;
+  height: 18vh;
+  display: block;
+  background: linear-gradient(
+      to right,
+      rgba(50, 139, 50, 0.373),
+      rgba(50, 139, 50, 0.373)
+    ),
+    url(../image/line.jpg) center/cover no-repeat fixed;
+}
+#heade-title {
+  position: absolute;
+  color: #7f8c8d;
+  text-transform: uppercase;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  color: #ffffff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
+    0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+}
+
+.red {
+  color: #34495e;
+  /* font-weight: 700; */
+}
+
+.box1 span {
+  font-weight: 700;
+}
+
+body {
+  background: #7f8c8d;
+}
+
+.wrap {
+  background: #2c3e50;
+  width: 1200px;
+  margin: 20px auto 0px auto;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.wrap p {
+  padding: 20px;
+  font-weight: 400;
+  word-spacing: 1px;
+  letter-spacing: 1.2px;
+}
+
+.box {
+  height: 100/33%;
+  font-size: 30px;
+  background: #7f8c8d;
+}
+
+.box1 {
+  width: 100%;
+  height: 150px;
+}
+.box2 {
+  width: 30%;
+  font-size: 50px;
+  text-align: right;
+  text-transform: uppercase;
+}
+.box3 {
+  width: 65%;
+  margin-left: 5%;
+}
+.box4 {
+  width: 75%;
+}
+.box5 {
+  width: 25%;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.h-box3 {
+  color: #2c3e50;
+  font-size: 80px;
+  text-transform: uppercase;
+  font-weight: 900;
+}

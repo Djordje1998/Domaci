@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- <link rel="stylesheet" href="./css/-debug.css" /> -->
+    <link rel="stylesheet" href="./css/work.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <title>Work</title>
+  </head>
+  <body>
+    <header class="header-img">
+      <h1 id="heade-title" id="work">Work</h1>
+    </header>
+    <nav class="nav-bar">
+      <ul class="nav_links">
+        <li>
+          <a href="#" class="nav_single-link nav_logo">
+            <img src="" alt="" />
+          </a>
+        </li>
+        <li><a href="./index.html" class="nav_single-link li-1">home</a></li>
+        <li><a href="./galery.html" class="nav_single-link li-2">galery</a></li>
+        <li><a href="#work" class="nav_single-link li-3">work</a></li>
+        <li>
+          <a href="./about.html" class="nav_single-link li-4">about us</a>
+        </li>
+        <li>
+          <a href="./contact.html" class="nav_single-link li-5">contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="space"></div>
+    <div class="wrap">
+      <div class="form-work">
+        <form action="Post" class="form-box">
+          <div class="form-box-inner">
+            <div class="labels">
+              <label for="firstName">Your Name</label><br />
+              <label for="email">Your Email</label><br />
+              <label for="age">Age</label><br />
+              <label for="number">Phone</label><br />
+              <label for="workType">Experience</label><br />
+              <label for="skills">Your Skills</label><br />
+            </div>
+            <div class="inputs">
+              <input
+                id="firstName"
+                type="text"
+                name="firstName"
+                placeholder="First Name"
+              />
+              <input
+                type="text"
+                name="lastName"
+                placeholder="Last Name"
+              /><br />
+              <input
+                required
+                id="email"
+                type="email"
+                name="email"
+                placeholder="e.g. hello@gmail.com"
+              />
+              <br />
+              <input
+                required
+                type="number"
+                id="age"
+                name="age"
+                placeholder="Phone"
+              />
+              <div class="radio-box">
+                <input id="male" name="gender" value="male" type="radio" />
+                <label for="male">Male</label>
+                <input id="female" name="gender" value="female" type="radio" />
+                <label for="female">Female</label>
+              </div>
+              <br />
+              <input
+                class="phone-input"
+                id="number"
+                required
+                type="tel"
+                name="phone1"
+                placeholder="###"
+              />
+              <input
+                class="phone-input"
+                required
+                type="tel"
+                name="phone2"
+                placeholder="###"
+              />
+              <input
+                class="phone-input"
+                required
+                type="tel"
+                name="phone3"
+                placeholder="###"
+              /><br />
+              <input
+                required
+                type="text"
+                id="workType"
+                name="workType"
+                placeholder="Experience"
+              /><br />
+              <textarea
+                name="skills"
+                id="skills"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+          </div>
+          <button type="button" class="apply">Apply for job</button>
+          <br />
+        </form>
+      </div>
+    </div>
+    <footer>
+      <hr />
+      <div class="end">
+        <ul>
+          <li><a href="#header">home</a></li>
+          <li><a href="./galery.html">galery</a></li>
+          <li><a href="./work.html">work</a></li>
+          <li><a href="./about.html">about us</a></li>
+          <li><a href="./contact.html">contact</a></li>
+        </ul>
+        <div class="end-text">
+          <p>
+            Copyright 2019 &#169; by FonWebSite, Powered by
+            <a href="http://www.fon.bg.ac.rs/" target="_blank">Fon.bg.ac.rs</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

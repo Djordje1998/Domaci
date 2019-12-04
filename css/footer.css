@@ -1,0 +1,74 @@
+footer {
+  height: 15vh;
+  width: 100%;
+  background: #382923;
+}
+
+.end {
+  margin: 0 auto;
+  width: 75%;
+  color: #a9b2ac;
+  margin-top: 30px;
+  display: relative;
+}
+
+.end ul {
+  list-style: none;
+}
+
+.end ul li {
+  display: inline-block;
+  padding: 10px 35px;
+  border-right: 2px solid white;
+  border-bottom: 2px solid transparent;
+  transition: all 0.5s ease;
+}
+
+.end ul li:hover {
+  border-bottom: 2px solid #058c42;
+  background: #241a16;
+}
+
+.end ul li a:link,
+.end ul li a:visited {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.end ul li a:hover,
+.end ul li a:active {
+  color: white;
+  text-transform: uppercase;
+}
+
+.end ul li:last-child {
+  border-right: 2px solid transparent;
+}
+.end-text {
+  display: inline-block;
+  margin: 70px auto 20px 170px;
+}
+
+.end-text a:link,
+.end-text a:visited {
+  text-decoration: none;
+  color: #a9b2ac;
+  transition: all 1s ease;
+}
+
+.end-text a:hover,
+.end-text a:active {
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #4a4ce2 0px 0px 20px, #2d5eff 0px 0px 30px, #2d53ff 0px 0px 40px,
+    #422dff 0px 0px 50px, #2d3bff 0px 0px 75px, 2px 2px 2px rgba(206, 89, 55, 0);
+}
+
+@media (min-width: 768px) {
+  .end {
+    width: 768px;
+  }
+  .end ul {
+    width: 100%;
+  }
+}
