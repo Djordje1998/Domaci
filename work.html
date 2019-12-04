@@ -7,9 +7,14 @@
     <!-- <link rel="stylesheet" href="./css/-debug.css" /> -->
     <link rel="stylesheet" href="./css/work.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <script src="./js/jQuery.js"></script>
+    <script src="./js/form.js"></script>
     <title>Work</title>
   </head>
   <body>
+    <div class="preloader">
+      <img src="" alt="preloader" class="preloader_item" />
+    </div>
     <header class="header-img">
       <h1 id="heade-title" id="work">Work</h1>
     </header>
@@ -40,7 +45,7 @@
               <label for="firstName">Your Name</label><br />
               <label for="email">Your Email</label><br />
               <label for="age">Age</label><br />
-              <label for="number">Phone</label><br />
+              <label for="phoneNumber">Phone</label><br />
               <label for="workType">Experience</label><br />
               <label for="skills">Your Skills</label><br />
             </div>
@@ -54,6 +59,7 @@
               <input
                 type="text"
                 name="lastName"
+                id="lastName"
                 placeholder="Last Name"
               /><br />
               <input
@@ -69,7 +75,7 @@
                 type="number"
                 id="age"
                 name="age"
-                placeholder="Phone"
+                placeholder="Age"
               />
               <div class="radio-box">
                 <input id="male" name="gender" value="male" type="radio" />
@@ -80,7 +86,7 @@
               <br />
               <input
                 class="phone-input"
-                id="number"
+                id="phoneNumber"
                 required
                 type="tel"
                 name="phone1"
@@ -115,7 +121,9 @@
               ></textarea>
             </div>
           </div>
-          <button type="button" class="apply">Apply for job</button>
+          <button type="button" id="applyBtn" class="apply">
+            Apply for job
+          </button>
           <br />
         </form>
       </div>
@@ -124,7 +132,7 @@
       <hr />
       <div class="end">
         <ul>
-          <li><a href="#header">home</a></li>
+          <li><a href="./index.html">home</a></li>
           <li><a href="./galery.html">galery</a></li>
           <li><a href="./work.html">work</a></li>
           <li><a href="./about.html">about us</a></li>
@@ -138,5 +146,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/app.js"></script>
   </body>
 </html>

@@ -80,3 +80,15 @@ body {
   height: 75vh;
   width: 100%;
 }
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--brightYellow);
+  z-index: 9001;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
